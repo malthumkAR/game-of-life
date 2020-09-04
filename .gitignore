@@ -1,1 +1,21 @@
+<<<<<<< HEAD
 **/*.tgz
+=======
+.DS_Store 
+.project
+.settings
+target
+.idea
+.classpath
+.checkstyle
+.pmd
+*.log
+*.log.*
+*.iml  
+*.ipr
+*.iws
+*.versionsBackup
+
+*.iml
+.DS_Store
+>>>>>>> 075b7ba4896b85a17641c882548bcb92bb00a84f
