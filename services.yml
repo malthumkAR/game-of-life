@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: nodeapp
+  name: appnode
 spec:
   selector:
-    app: nodeapp
+    app: appnode
   ports:
   - protocol: TCP
     port: 80
