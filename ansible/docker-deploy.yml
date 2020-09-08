@@ -22,6 +22,6 @@
         state: present
     - name: Create  container
       docker_container:
-        name: nodeapp
+        name: appnode
         image: vinod9782/ola:{{tag}}
         published_ports: ["8080:8080"]
