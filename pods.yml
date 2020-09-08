@@ -1,19 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: appnode
+  name: nodeapp
   labels:
-    app: appnode
+    app: nodeapp
 spec:
   containers:
-<<<<<<< HEAD
-    - name: appnode
-    image: vinod9782/ola:tagversion
+  - name: nodeapp
+    image: vinod9782/ola:tagVersion
     ports:
     - containerPort: 8080
-=======
-    - name: nodeapp
-      image: kammana/nodeapp:tagVersion
-      ports:
-        - containerPort: 8080
->>>>>>> 8b46a7cd81b780d7b3e7b345303fde6464d797ba
