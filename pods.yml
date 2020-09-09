@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: nodeapp
-    image: "vinod9782/ola:tagVersion"
+    image: "vinod9782/ola"
     ports:
     - containerPort: 8080
