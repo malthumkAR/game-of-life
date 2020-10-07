@@ -8,7 +8,7 @@ RUN yum -y install wget
 RUN yum -y install unzip
 
 WORKDIR /opt/tomcat
-RUN curl -O https://downloads.apache.org/tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57-windows-x64.zip
+RUN curl -O https://downloads.apache.org/tomcat/tomcat-9/v9.0.38/bin/apache-tomcat-9.0.38.zip
 RUN unzip apache-tomcat-8.5.57-windows-x64.zip
 RUN mv apache-tomcat-8.5.57/* /opt/tomcat/.
 RUN yum -y install java
